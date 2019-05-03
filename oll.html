@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- endbuild -->
 
-    <title>My Rubik's Home</title>
+    <title>Orientation Of the Last Layer</title>
 </head>
 
 <body class="body">
@@ -92,11 +92,286 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <h1 class="col-12">My Rubik's Home</h1>
-                <p class="col-12 text-justify">This website contains a collection of algorithms used in the Friedrich Method for solving the Rubik's 3x3x3 cube. You can also find some cool patterns that will make your cube look awesome!</p>
+                <h1 class="col-12">OLL (Orientation of the Last Layer)</h1>
+                <p class="col-12 text-justify">In this step you will be orienting the last layer stickers correctly</p>
             </div>
         </div>
     </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12">
+                <p class="text-justify">Now let's start with the bottom face. In order to make it more comfortable, we will rotate the whole cube so that the bottom face is up. Now what we have to do is get this face to have one single color. In other words, we have to orient each piece. Without counting symmetries, we can get 41 different cases (including the case in which all stickers are well oriented).</p>
+            </div>
+            <div class="col-2">
+                <p>We will go from this</p>
+            </div>
+            <div class="col-4">
+                <img class="img-fluid rounded" src="img/oll/bfr.png" height=130 width=130 alt="before-OLL">
+            </div>
+            <div class="col-2">
+                <p>To this</p>
+            </div>
+            <div class="col-4">
+                <img class="img-fluid rounded" src="img/oll/aftr.png" height=150 width=150 alt="after-OLL">
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-12">
+                <p class="text-justify">Now, as we said, there are 40 different situations that we can have in this step if we do not count symmetries. Each one of those cases can be solved with a single algorithm that will take you to a correctly oriented last layer.<br>Usually, people tend to like algorithms with double turns and fewer cube rotations, but this is a matter of taste and there are no rules. We will leave several algorithms for every case and it will be up to you to test a few of them and decide which one fits better your cube moves.</p>
+            </div>
+        </div>
+        <div class="row row-header">
+            <h3>Algorithms</h3>
+        </div>
+        <div class="row row-content">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th class="col-3">Case</th>
+                                <th class="col-4">Algorithm</th>
+                                <th class="col-5">Comments</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th><img src="img/oll/o1.gif" alt="case-1"></th>
+                                <th class="notation">1.- RU2 - R2FRF'U2 - R'FRF'<br>2.- RUB'R - BR2U' - R'FRF'</th>
+                                <th class="font-weight-light">Very unusual</th>
+                            <tr>
+                                <th><img src="img/oll/o2.gif" alt="case-2"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o3.gif" alt="case-3"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o3s.gif" alt="case-3s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o4.gif" alt="case-4"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o5.gif" alt="case-5"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o6.gif" alt="case-6"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o7.gif" alt="case-7"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o8.gif" alt="case-8"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o9.gif" alt="case-9"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o10.gif" alt="case-10"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o11.gif" alt="case-11"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o12.gif" alt="case-12"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o12s.gif" alt="case-12s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o13.gif" alt="case-13"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o13s.gif" alt="case-13s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o14.gif" alt="case-14"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o14s.gif" alt="case-14s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o15.gif" alt="case-15"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o15s.gif" alt="case-15s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o16.gif" alt="case-16"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o16s.gif" alt="case-16s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o17.gif" alt="case-17"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o17s.gif" alt="case-17s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o18.gif" alt="case-18"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o18s.gif" alt="case-18s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o19.gif" alt="case-19"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o19s.gif" alt="case-19s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o20.gif" alt="case-20"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o20s.gif" alt="case-20s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o21.gif" alt="case-21"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o21s.gif" alt="case-21s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o22.gif" alt="case-22"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o22s.gif" alt="case-22s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o23.gif" alt="case-23"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o23s.gif" alt="case-23s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o24.gif" alt="case-24"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o24s.gif" alt="case-24s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o25.gif" alt="case-25"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o25s.gif" alt="case-25s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o26.gif" alt="case-26"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o26s.gif" alt="case-26s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o27.gif" alt="case-27"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o28.gif" alt="case-28"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o29.gif" alt="case-29"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o30.gif" alt="case-30"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o31.gif" alt="case-31"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o32.gif" alt="case-32"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o33.gif" alt="case-33"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o34.gif" alt="case-34"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o35.gif" alt="case-35"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o36.gif" alt="case-36"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o37.gif" alt="case-37"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o38.gif" alt="case-38"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o38s.gif" alt="case-38s"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o39.gif" alt="case-39"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                                <th><img src="img/oll/o40.gif" alt="case-40"></th>
+                                <th class="notation"></th>
+                                <th class="font-weight-light"></th>
+                            <tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer">
         <div class="container">
