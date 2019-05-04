@@ -12,6 +12,7 @@
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "copyfavicon": "copyfiles -f favicon.ico dist/favicon.ico",
     "imagemin": "imagemin img/* --out-dir dist/img && imagemin img/oll/* --out-dir dist/img/oll && imagemin img/pll/* --out-dir dist/img/pll && imagemin img/patterns/* --out-dir dist/img/patterns",
     "usemin": "usemin oll.html -d dist --htmlmin -o dist/oll.html && usemin pll.html -d dist --htmlmin -o dist/pll.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin f2l.html -d dist --htmlmin -o dist/f2l.html && usemin patterns.html -d dist --htmlmin -o dist/patterns.html",
     "build": "npm run clean && npm run copyfonts && npm run imagemin && npm run usemin"
