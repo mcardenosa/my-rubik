@@ -1,1 +1,165 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><link rel="stylesheet" href="css/main.css"><title>First 2 Layers</title></head><body class="body"><nav class="navbar navbar-dark navbar-expand-sm fixed-top"><div class="container"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"><span class="navbar-toggler-icon"></span></button> <a class="navbar-brand" href="./index.html"><img src="img/rubik.svg" height="41" width="41"></a><div class="collapse navbar-collapse" id="Navbar"><ul class="navbar-nav mr-auto"><li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li><li class="nav-item active"><a class="nav-link" href="./f2l.html"><span class="fa fa-list"></span> F2L</a></li><li class="nav-item"><a class="nav-link" href="./oll.html"><span class="fa fa-list"></span> OLL</a></li><li class="nav-item"><a class="nav-link" href="./pll.html"><span class="fa fa-list"></span> PLL</a></li><li class="nav-item"><a class="nav-link" href="./patterns.html"><span class="fa fa-list"></span> Patterns</a></li></ul><span class="navbar-text"><a id="wcaSearchButton" role="button" class="btn btn-sm btn-success btn-block"><i class="fa fa-search"></i> WCA Profile Search</a></span></div></div></nav><div id="wcaSearchModal" class="modal fade" role="dialog"><div class="modal-dialog" role="content"><div class="modal-content"><div class="modal-header"><h4 class="modal-title">WCA Profile Search</h4><button type="button" class="close" data-dismiss="modal">&times;</button></div><div class="modal-body"><form action="https://www.worldcubeassociation.org/persons" method="get" target="_blank"><div class="form-group row"><div class="col-12 col-sm-5 align-self-center text-justify font-weight-bold"><label class="col-form-label">Region</label></div><div class="col-12 col-sm-7 align-self-center"><select name="region" id="region" class="form-control"><option selected="selected" value="all">All regions</option><optgroup label="Continent"><option value="_Africa">Africa</option><option value="_Asia">Asia</option><option value="_Europe">Europe</option><option value="_North America">North America</option><option value="_Oceania">Oceania</option><option value="_South America">South America</option></optgroup></select></div></div><div class="form-group row"><div class="col-12 col-sm-5 align-self-center text-justify font-weight-bold"><label class="col-form-label">WCA ID or name parts</label></div><div class="col-12 col-sm-7 align-self-center"><input class="form-control" type="text" name="search" placeholder="WCA ID or name parts"></div></div><div class="form-group row"><div class="col-12"><input class="btn btn-success btn-block" type="submit" value="Search"></div></div></form></div></div></div></div><header class="jumbotron"><div class="container"><div class="row row-header"><h1 class="col-12">F2L (First Two Layers)</h1><p class="col-12 text-justify">In this step you solve the upper and middle layer of the Rubik's cube.</p></div></div></header><div class="container"><div class="row row-content"><div class="col-12 col-sm-6"><p>This step is the most intuitive and can be solved without using algorithms and with a lot of practice. One way to do this is to first build the top layer cross as in the first resolution step for beginners.<br>It is a common practice to place the first layer in the bottom face of the cube because this way we will have a better perspective of where the rest of the pieces to place are. Most of these movements are simple and come out with practice.<br>Then there will be 4 columns to solve, which we can solve by placing the corresponding pieces 2 by 2.<br><b>We will not provide any algorithms for this step.</b><br>However, if you do not know how to complete this step, you can check out the following tutorial:</p></div><div class="col-12 col-sm-6"><div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/Ar_Zit1VLG0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div></div></div><footer class="footer"><div class="container"><div class="row justify-content-center"><h5 class="col-12 text-center">Links</h5><div class="col-12 col-sm-3 text-center align-self-center"><figure class="figure"><a href="https://www.worldcubeassociation.org/" target="_blank"><img src="img/wca.svg" class="figure-img img-fluid rounded" alt="WCA Logo"></a><figcaption class="figure-caption">World Cube Association</figcaption></figure></div><div class="col-12 col-sm-3 text-center align-self-center"><figure class="figure"><a href="https://www.speedsolving.com/" target="_blank"><img src="img/speed.png" class="figure-img img-fluid rounded" alt="SpeedSolving Logo"></a><figcaption class="figure-caption">SpeedSolving.com</figcaption></figure></div><div class="col-12 col-sm-3 text-center align-self-center"><figure class="figure"><a href="https://www.hknowstore.com/" target="_blank"><img src="img/hknow.gif" class="figure-img img-fluid rounded" alt="HK Now Store Logo"></a><figcaption class="figure-caption">HK NowStore</figcaption></figure></div><div class="col-12 col-sm-3 text-center align-self-center"><figure class="figure"><a href="https://www.lightake.com/c/Magic-Cubes-Puzzles_001" target="_blank"><img src="img/LT_logo.jpg" class="figure-img img-fluid rounded" alt="Lightake Logo"></a><figcaption class="figure-caption">Lightake</figcaption></figure></div></div><div class="row justify-content-center"><div class="col-auto"><p class="small">© Copyright 2019 Mario Alonso Cardeñosa</p></div></div></div></footer><script src="js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
+
+    <title>First 2 Layers</title>
+</head>
+
+<body class="body">
+
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html"><img src="img/rubik.svg" height=41 width=41></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./f2l.html"><span class="fa fa-list"></span> F2L</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./oll.html"><span class="fa fa-list"></span> OLL</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pll.html"><span class="fa fa-list"></span> PLL</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./patterns.html"><span class="fa fa-list"></span> Patterns</a></li>
+                </ul>
+              <span class="navbar-text">
+                  <a id="wcaSearchButton" role="button" class="btn btn-sm btn-success btn-block">
+                      <i class="fa fa-search"></i> WCA Profile Search
+                  </a>
+              </span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="wcaSearchModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="content">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title">WCA Profile Search</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                  <form action="https://www.worldcubeassociation.org/persons" method="get" target="_blank">
+                      <div class="form-group row">
+                          <div class="col-12 col-sm-5 align-self-center text-justify font-weight-bold">
+                              <label class="col-form-label">Region</label>
+                          </div>
+                          <div class="col-12 col-sm-7 align-self-center">
+                              <select name="region" id="region" class="form-control">
+                                  <option selected="selected" value="all">All regions</option>
+                                  <optgroup label="Continent">
+                                      <option value="_Africa">Africa</option>
+                                      <option value="_Asia">Asia</option>
+                                      <option value="_Europe">Europe</option>
+                                      <option value="_North America">North America</option>
+                                      <option value="_Oceania">Oceania</option>
+                                      <option value="_South America">South America</option>
+                                  </optgroup>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="form-group row">
+                          <div class="col-12 col-sm-5 align-self-center text-justify font-weight-bold">
+                              <label class="col-form-label">WCA ID or name parts</label>
+                          </div>
+                          <div class="col-12 col-sm-7 align-self-center">
+                              <input class="form-control" type="text" name="search" placeholder="WCA ID or name parts">
+                          </div>
+                      </div>
+                      <div class="form-group row">
+                          <div class="col-12">
+                              <input class="btn btn-success btn-block" type="submit" value="Search">
+                          </div>
+                      </div>
+                  </form>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <h1 class="col-12">F2L (First Two Layers)</h1>
+                <p class="col-12 text-justify">In this step you solve the upper and middle layer of the Rubik's cube.</p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12 col-sm-6">
+                <p>This step is the most intuitive and can be solved without using algorithms and with a lot of practice. One way to do this is to first build the top layer cross as in the first resolution step for beginners.<br> It is a common practice to place the first layer in the bottom face of the cube because this way we will have a better perspective of where the rest of the pieces to place are. Most of these movements are simple and come out with practice.<br>Then there will be 4 columns to solve, which we can solve by placing the corresponding pieces 2 by 2.<br><b>We will not provide any algorithms for this step.</b><br>However, if you do not know how to complete this step, you can check out the following tutorial:</p>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/Ar_Zit1VLG0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h5 class="col-12 text-center">Links</h5>
+                <div class="col-12 col-sm-3 text-center align-self-center">
+                    <figure class="figure">
+                        <a href="https://www.worldcubeassociation.org/" target="_blank">
+                            <img src="img/wca.svg" class="figure-img img-fluid rounded" alt="WCA Logo">
+                        </a>
+                        <figcaption class="figure-caption">World Cube Association</figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-3 text-center align-self-center">
+                    <figure class="figure">
+                        <a href="https://www.speedsolving.com/" target="_blank">
+                            <img src="img/speed.png" class="figure-img img-fluid rounded" alt="SpeedSolving Logo">
+                        </a>
+                        <figcaption class="figure-caption">SpeedSolving.com</figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-3 text-center align-self-center">
+                    <figure class="figure">
+                        <a href="https://www.hknowstore.com/" target="_blank">
+                            <img src="img/hknow.gif" class="figure-img img-fluid rounded" alt="HK Now Store Logo">
+                        </a>
+                        <figcaption class="figure-caption">HK NowStore</figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-3 text-center align-self-center">
+                    <figure class="figure">
+                        <a href="https://www.lightake.com/c/Magic-Cubes-Puzzles_001" target="_blank">
+                            <img src="img/LT_logo.jpg" class="figure-img img-fluid rounded" alt="Lightake Logo">
+                        </a>
+                        <figcaption class="figure-caption">Lightake</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                 <div class="col-auto">
+                     <p class="small">© Copyright 2019 Mario Alonso Cardeñosa</p>
+                 </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS imports -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
