@@ -93,63 +93,57 @@
         <div class="container">
             <div class="row row-header">
                 <h1 class="col-12">Patterns</h1>
-                <p class="col-12 text-justify">This is a collection of nice patterns to make your cube look nice.</p>
+                <p class="col-12">This is a collection of nice patterns to make your cube look cool.</p>
             </div>
         </div>
     </header>
 
     <div class="container">
         <div class="row row-content">
-            <div class="col-12">
-                <p class="text-justify">Now let's start with the bottom face. In order to make it more comfortable, we will rotate the whole cube so that the bottom face is up. Now what we have to do is get this face to have one single color. In other words, we have to orient each piece. Without counting symmetries, we can get 41 different cases (including the case in which all stickers are well oriented).</p>
-            </div>
-            <div class="col-2">
-                <p>We will go from this</p>
-            </div>
-            <div class="col-4">
-                <img class="img-fluid rounded" src="img/oll/bfr.png" height=130 width=130 alt="before-OLL">
-            </div>
-            <div class="col-2">
-                <p>To this</p>
-            </div>
-            <div class="col-4">
-                <img class="img-fluid rounded" src="img/oll/aftr.png" height=150 width=150 alt="after-OLL">
-            </div>
-        </div>
-        <div class="row row-content">
-            <div class="col-12">
-                <p class="text-justify">Now, as we said, there are 40 different situations that we can have in this step if we do not count symmetries. Each one of those cases can be solved with a single algorithm that will take you to a correctly oriented last layer.<br>Usually, people tend to like algorithms with double turns and fewer cube rotations, but this is a matter of taste and there are no rules. We will leave several algorithms for every case and it will be up to you to test a few of them and decide which one fits better your cube moves.</p>
-            </div>
+
         </div>
         <div class="row row-header">
             <h3>Algorithms</h3>
         </div>
         <div class="row row-content">
-            <div class="col-12">
+            <div class="col-12 d-none d-md-block">
                 <div class="table-responsive">
-                    <table class="table">
+                    <table class="table table-striped">
                         <thead class="thead-dark">
                             <tr>
-                                <th class="col-3">Case</th>
-                                <th class="col-4">Algorithm</th>
-                                <th class="col-5">Comments</th>
+                                <th style="width: 25%" scope="col">Case</th>
+                                <th style="width: 75%%" scope="col">Algorithm</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <th></th>
-                                <th class="notation">1.- D2 F2 U2 B2 F2 U2 F2 U2</th>
-                                <th class="font-weight-light">One of the fastest cases</th>
-                            <tr>
-                                <th><img src="img/patterns/x.jpg" class="figure-img img-fluid rounded" alt="case-1"></th>
-                                <th class="notation"></th>
-                                <th class="font-weight-light">One of the most famous cases</th>
-                            <tr>
+                          <tr>
+                              <th scope="row"><img src="img/pll/p1.gif" alt="case-1"></th>
+                              <th class="notation">1.- (R'UR'U') R'U' (R'URUR2)</th>
+                          </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
-        </div>
+            <!-- table for xs and sm screens -->
+            <div class="col-12 d-block d-md-none">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th style="width: 100%" scope="col" class="text-center">Case - Algorithm</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-center"><img src="img/pll/p1.gif" alt="case-1"></th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="notation">1.- (R'UR'U') R'U' (R'URUR2)</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
     </div>
 
     <footer class="footer">
